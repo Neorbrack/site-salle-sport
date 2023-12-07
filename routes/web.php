@@ -1,7 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [MainController::class, 'index'])->name('main.index');
 
 Route::get('/accueil', function () {
     return view('accueil');
@@ -35,5 +35,3 @@ Route::get('/mentions-legales', function () {
 
 
 
-
-Route::get('/', [MainController::class, 'index'])->name('main.index');
