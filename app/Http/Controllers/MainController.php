@@ -32,7 +32,7 @@ class MainController extends Controller
 }
 
 {
-    function  TarifsController()
+    function  Tarifscontroller()
 {
     return view('tarifs');
 }
@@ -53,8 +53,3 @@ class MainController extends Controller
     return view('mentions-legales');
 }
 }
-
-
-
-
-

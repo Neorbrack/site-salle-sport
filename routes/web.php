@@ -33,20 +33,15 @@ Route::get('/mentions-legales', function () {
     return view('mentions-legales');
 });
 
-Route::get('/', [MainController::class, 'AccueilController'])->name('main.accueil');
+Route::get('/AccueilController', [MainController::class, 'AccueilController'])->name('main.accueil');
 
-Route::get('/', [MainController::class, 'CoursController'])->name('main.cours');
+Route::get('/cours', [MainController::class, 'CoursController'])->name('main.cours');
 
-Route::get('/', [MainController::class, 'TarifsController'])->name('main.tarifs');
+Route::get('/tarifs', [MainController::class, 'TarifsController'])->name('main.tarifs');
 
-Route::get('/', [MainController::class, 'ContactController'])->name('main.contact');
+Route::get('/Contact', [MainController::class, 'ContactController'])->name('main.contact');
 
-Route::get('/', [MainController::class, 'MentionsLegalesController'])->name('main.mentions-legales');
-
-
-
-
-
+Route::get('/mentions-legales', [MainController::class, 'MentionsLegalesController'])->name('main.mentions-legales');
 
 
 
