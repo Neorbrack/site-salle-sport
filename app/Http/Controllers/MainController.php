@@ -32,9 +32,9 @@ class MainController extends Controller
 }
 
 {
-    function  Tarifscontroller()
+    function  TarifsController()
 {
-    return view('tarif');
+    return view('tarifs');
 }
 }
 
