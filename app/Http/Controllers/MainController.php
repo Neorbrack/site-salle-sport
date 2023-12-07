@@ -31,5 +31,3 @@ class MainController extends Controller
         return view('mentions-legales');
     }
 }
-
-Route::get('/', [MainController::class, 'Index'])->name('main.index');
