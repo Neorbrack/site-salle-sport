@@ -17,7 +17,7 @@
         </p>
 
         <header>
-            <h1>Salle de sport pour homme fort</h1>
+            <h1>Salle de sport OnlyAlpha</h1>
             <nav>
                 <ul>
                     <li>

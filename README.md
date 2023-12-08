@@ -1,3 +1,34 @@
+# Site salle de sport
+
+Ce projet est un site d'une salle de sport crée pour un client avec laravel.
+
+## Prérequis
+
+-vscode
+-composer
+-artisan
+-npm
+
+## Installation 
+
+Créez un nouveau projet Laravel nommé site-salle-sport avec la commande composer "create-project laravel/laravel foo"
+Installer npm avec "npm install" 
+Lancez votre serveur web avec "php artisan serve"
+
+## Utilisation 
+
+Depuis la racine du projet, lancez un serveur web
+
+Puis ouvrez le lien [http://127.0.0.1:8000]
+
+## Contact 
+
+Pour toute demande d'information, contactez artiom_59@hotmail.fr
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +95,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
+
+
