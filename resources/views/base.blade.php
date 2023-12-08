@@ -13,6 +13,13 @@
 </head>
     <body>
         <h1>Accueil</h1>
+            <section class="Image">
+                <div class="tailleimage">
+                <img class="tailleimage" src="image/cathy-pham-3jAN9InapQI-unsplash.jpg" alt="image de cathy pham">
+                <img class="tailleimage" src="image/samuel-girven-VJ2s0c20qCo-unsplash.jpg" alt="image de samuel girven">
+
+
+
         <p>Vous êtes sur la page d'Accueil
 
         </p>
