@@ -4,4 +4,7 @@
 
 @section('content')
 
+<h2>MentionsLegales</h2>
+
+
 @endsection
