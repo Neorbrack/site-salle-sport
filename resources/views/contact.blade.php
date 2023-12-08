@@ -16,6 +16,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            border-color:
         }
 
         form {
@@ -33,6 +34,7 @@
             padding: 8px;
             margin-bottom: 16px;
             box-sizing: border-box;
+            color:white;
         }
 
         button {

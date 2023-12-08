@@ -1,7 +1,50 @@
-.tailleimage {
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
 
-    width: 800px;
 }
 
 
+
+
+
+.tailleimage {
+    width: 450px;
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+    white-space-collapse: 50px;
+    size-adjust: 100px;
+    size: 100px;
+    align-items: center;
+}
+
+
+header.header {
+    background-color: black;
+    display: flex;
+}
+
+
+.body {
+    image-rendering: auto;
+    margin: 0%;
+}
+
+.landing-page {
+    padding: 20px 25px;
+}
+
+.big title {
+    font-size: 80px;
+}
+
+nav.nav li {
+    /* size: 100px; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 380px;
+}
 

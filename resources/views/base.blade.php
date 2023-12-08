@@ -14,11 +14,13 @@
     <body>
         <p>Vous êtes sur la page d'Accueil
 
+        </nav>
+
         </p>
 
         <header>
             <h1>Salle de sport OnlyAlpha</h1>
-            <nav>
+            <nav class="nav">
                 <ul>
                     <li>
                         <a href="{{ route('main.accueil')}}">Accueil</a>
@@ -42,7 +44,9 @@
 
         <footer>
             @section('footer')
+
             Copyright 2022
+            
             @show
         </footer>
     </body>
