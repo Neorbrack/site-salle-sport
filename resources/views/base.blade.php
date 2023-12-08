@@ -12,24 +12,35 @@
 
 </head>
     <body>
-    <h1>Accueil</h1>
-    <p>Vous êtes sur la page d'Accueil
+        <h1>Accueil</h1>
+        <p>Vous êtes sur la page d'Accueil
 
-    </p>
+        </p>
 
-    <header>
+        <header>
+            <h1>Salle de sport pour homme fort</h1>
+            <nav>
+                <a href="{{ route('main.accueil') }}">Accueil</a>
+                <a href="{{ route('main.cours') }}">Cours</a>
+                <a href="{{ route('main.tarifs') }}">Tarifs</a>
+                <a href="{{ route('main.contact') }}">Contact</a>
+                <a href="{{ route('main.mentions-legales') }}">MentionsLegales</a>
+            </nav>
         
 
-    </header>
+        </header>
 
-    <div class="container">
-        @yield('content')
-    </div>
+        <div class="container">
+        <section>
+            @yield('content')
 
-    <footer>
-        @section('footer')
+        </section>
+        </div>
+
+        <footer>
+            @section('footer')
             Copyright 2022
-        @show
-    </footer>
-</body>
+            @show
+        </footer>
+    </body>
 </html>

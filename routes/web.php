@@ -13,25 +13,25 @@ use App\Http\Controllers\MainController;
 */
 // Route::get('/', [MainController::class, 'index'])->name('main.index');
 
-// Route::get('/accueil', function () {
-//     return view('accueil');
-// });
+Route::get('/accueil', function () {
+    return view('accueil');
+});
 
-// Route::get('/cours', function () {
-//     return view('cours');
-// });
+Route::get('/cours', function () {
+    return view('cours');
+});
 
-// Route::get('/tarifs', function () {
-//     return view('tarif');
-// });
+Route::get('/tarifs', function () {
+    return view('tarif');
+});
 
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
-// Route::get('/mentions-legales', function () {
-//     return view('mentions-legales');
-// });
+Route::get('/mentions-legales', function () {
+    return view('mentions-legales');
+});
 
 Route::get('/', [MainController::class, 'AccueilController'])->name('main.accueil');
 
