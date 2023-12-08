@@ -1,2 +1,2 @@
 @extends ('base')
-@extends ('title,MentionsLegales')
+@section('title','mentions-legales')

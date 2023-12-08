@@ -1,2 +1,2 @@
 @extends ('base')
-@extends ('title,Cours')
+@section('title','Cours')
