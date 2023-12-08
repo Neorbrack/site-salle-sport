@@ -12,14 +12,6 @@
 
 </head>
     <body>
-        <h1>Accueil</h1>
-            <section class="Image">
-                <div class="tailleimage">
-                <img class="tailleimage" src="image/cathy-pham-3jAN9InapQI-unsplash.jpg" alt="image de cathy pham">
-                <img class="tailleimage" src="image/samuel-girven-VJ2s0c20qCo-unsplash.jpg" alt="image de samuel girven">
-
-
-
         <p>Vous êtes sur la page d'Accueil
 
         </p>
@@ -27,11 +19,15 @@
         <header>
             <h1>Salle de sport pour homme fort</h1>
             <nav>
-                <a href="{{ route('main.accueil') }}">Accueil</a>
-                <a href="{{ route('main.cours') }}">Cours</a>
-                <a href="{{ route('main.tarifs') }}">Tarifs</a>
-                <a href="{{ route('main.contact') }}">Contact</a>
-                <a href="{{ route('main.mentions-legales') }}">MentionsLegales</a>
+                <ul>
+                    <li>
+                        <a href="{{ route('main.accueil')}}">Accueil</a>
+                        <a href="{{ route('main.cours')}}">Cours</a>
+                        <a href="{{ route('main.tarifs')}}">Tarifs</a>
+                        <a href="{{ route('main.contact')}}">Contact</a>
+                        <a href="{{ route('main.mentions-legales')}}">MentionsLegales</a>
+                    </li>
+                </ul>
             </nav>
         
 
