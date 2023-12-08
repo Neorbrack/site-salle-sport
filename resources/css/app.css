@@ -2,42 +2,25 @@
     font-family:Arial, Helvetica, sans-serif;
     background-color: black;
     color:white;
-
 }
 
-
-
-
-
 .tailleimage {
-    width: 450px;
+    width: 550px;
     background-size: cover;
-    height: 100vh;
-    padding: 25px;
+    /* height: 100vh; */
+    /* padding: 25px;
     white-space-collapse: 50px;
     size-adjust: 100px;
-    size: 100px;
+    size: 100px; */
     align-items: center;
+    /* width: auto;
+    height: auto; */
 }
 
 
 header.header {
     background-color: black;
     display: flex;
-}
-
-
-.body {
-    image-rendering: auto;
-    margin: 0%;
-}
-
-.landing-page {
-    padding: 20px 25px;
-}
-
-.big title {
-    font-size: 80px;
 }
 
 nav.nav li {
@@ -48,3 +31,9 @@ nav.nav li {
     width: 380px;
 }
 
+.nav {
+    width: auto;
+    display: flex;
+    flex-grow: auto;
+    justify-content: space-between;
+}
