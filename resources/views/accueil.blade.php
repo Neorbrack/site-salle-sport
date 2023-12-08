@@ -21,9 +21,9 @@
 </p>
 <nav class="nav">
     </p>    
-        <img class="tailleimage" src="image/cathy-pham-3jAN9InapQI-unsplash.jpg" alt="image de cathy pham">
+        <img class="tailleimage" src="image/anastase-maragos-9dzWZQWZMdE-unsplash.jpg" alt="image de anastase maragos">
         <img class="tailleimage" src="image/samuel-girven-VJ2s0c20qCo-unsplash.jpg" alt="image de samuel girven">
-        <img class="tailleimage" src="image/téléchargé.jpg" alt="image google image"
+        <img class="tailleimage" src="image/pedro-araujo-PDjYClxmnyk-unsplash.jpg" alt="image de pedro araujo"
     >
 </nav>
         
